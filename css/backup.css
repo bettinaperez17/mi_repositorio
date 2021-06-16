@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-logo {
+    width: 10%;
+    margin: 1rem; 
+}
+
+nav {
+    background-color: #fecda1;
+    border-radius: 0.5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: #f49b4a;
+    color: black;
+    font-family: 'Montserrat', sans-serif;;
+    border-radius: 0.5rem;
+}
+main {
+    margin-top: 5%;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.elements-content {
+    margin: 2rem 2rem;
+    padding: 1rem;
+    background-color: #f49b4a;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    
+}
+.elements-content-two{
+    background-color: #f49b4a;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    margin: 2rem 2rem;
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+}
+footer {
+    background-color: #FF8C00;
+    border-radius: 1rem;
+}
+.footer-lists {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.footer-lists h4 {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.pie-pagina {
+    font-weight: lighter;
+    color: black;
+    font-size: 0.9rem;
+    text-decoration: none;
+    
+}
+.footer-lists-second {
+    display: flex;
+    flex-direction: column;
+}
+.footer-lists-second {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(63, 63, 63);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.footer-lists-second a {
+    color:#CCCCCC;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none; 
+}
+.footer-lists-second .pie-pagina {
+    font-weight: normal;
+    color: black;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+
+.footer-socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-socials div {
+    display: flex;
+}
+.footer-socials h4 {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.footer-socials img {
+    width: 3vw;
+    height: 3vw;
+    object-position: left;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-socials a {
+    color:#CCCCCC;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.containerTres {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.containerTres .otraClase {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #f49b4a
+   
+}
+
+.containerTres img {
+    width: 80%;
+    height: 40%;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    background-color: #EC8213;
+    object-fit: cover;
+    border-radius: 0.5rem;
+
+}
+
+.containerTres .quienesSomos{
+    background-color: #ec8213;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 0.6rem;
+}
+
+.containerCuatro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCuatro div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCuatro div h3{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 1.1rem;
+    font-weight:bold;
+    background-color: #FFE6CE;
+    padding: 0.6rem;
+    margin: 1rem 1rem;
+    border-radius: 0.6rem; 
+    width: 20vw;
+    text-align: center;
+
+}
+.containerCuatro .quienesSomos{
+    background-color: #ec8213;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 0.6rem;
+}
+
+.containerCinco {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.containerCinco .otraClase {
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 0.6rem;
+    background-color: #FFE6CE;
+}
+.containerSeis {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerSeis .otraClase {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #f49b4a
+}
+.containerSeis h3 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 1.1rem;
+    font-weight:bold;
+    background-color: #FFE6CE;
+    padding: 0.6rem;
+    margin: 1rem 1rem;
+    border-radius: 0.6rem; 
+    width: 20vw;
+    text-align: center;
+}
+.containerSeis .clasesCurso{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    background-color: #f49b4a;
+    flex-direction: column;
+    border-radius: 0.6rem;
+}
+.containerSeis .textoCurso {
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #FFE6CE;
+    font-family: 'Lato', sans-serif;
+}
+.containerSiete {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerSiete .otraClase {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #f49b4a
+
+}
+.containerSiete h3 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 1.1rem;
+    font-weight:bold;
+    background-color: #FFE6CE;
+    padding: 0.6rem;
+    margin: 1rem 1rem;
+    border-radius: 0.6rem; 
+    width: 20vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.containerSiete  div .clasesCurso{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    background-color: #f49b4a;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.containerSiete .textoCurso {
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #FFE6CE;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.containerOcho {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerOcho .otraClase{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #f49b4a
+}
+.containerOcho img {
+    margin: 2rem 2rem;
+    padding: 1rem;
+    background-color: #f49b4a;
+    border-radius: 0.6rem;
+    width: 60vw;
+    flex-direction:column ;
+}
+.containerOcho div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.containerOcho div h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1.1rem;
+    font-weight:bold;
+    background-color: #FFE6CE;
+    padding: 0.6rem;
+    margin: 1rem 1rem;
+    border-radius: 0.6rem; 
+    width: 20vw;
+    text-align: center;
+}
+.containerOcho div .textoCurso {
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #f49b4a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containerNueve {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.containerNueve .otraClase {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #FFE6CE
+}
+.containerNueve div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerNueve div h3 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 1.1rem;
+    font-weight:bold;
+    background-color: #FFE6CE;
+    padding: 0.6rem;
+    margin: 1rem 1rem;
+    border-radius: 0.6rem; 
+    width: 20vw;
+    text-align: center;
+}
+.containerNueve div .ubicacion {
+    margin: 2rem 2rem;
+    padding: 1rem;
+    background-color: #f49b4a;
+    border-radius: 0.6rem;
+    width: 4vw;
+    flex-direction:column ;
+}
+.containerNueve div h4 {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #FFE6CE;
+    font-family: 'Lato', sans-serif;
+}
+.containerNueve div .horarios {
+    margin: 2rem 2rem;
+    padding: 1rem;
+    background-color: #f49b4a;
+    border-radius: 0.6rem;
+    width: 4vw;
+    flex-direction:column ;
+}
+.containerNueve div .textoCurso {
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #f49b4a;
+    font-family: 'Lato', sans-serif;
+}
+.containerNueve div .telefono {
+    margin: 2rem 2rem;
+    padding: 1rem;
+    background-color: #f49b4a;
+    border-radius: 0.6rem;
+    width: 4vw;
+    flex-direction:column ;
+}
+.containerNueve div .mail {
+    margin: 2rem 2rem;
+    padding: 1rem;
+    background-color: #f49b4a;
+    border-radius: 0.6rem;
+    width: 4vw;
+    flex-direction:column ;
+}
+
+.containerDiez {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.containerDiez h4 {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    background-color: #FFE6CE;
+    font-family: 'Lato', sans-serif;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: black;
+}
+
+
+body {
+  background-color:#FFE6CE;
+  margin-bottom: 50px;
+}
+html, button, input, select, textarea {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: black;
+}
+h1 {
+  text-align: center;
+  margin: 30px 15px;
+}
+.zoom-area { 
+  max-width: 490px;
+  margin: 30px auto 30px;
+  font-size: 19px;
+  text-align: center;
+}
+.link-container {
+  text-align: center;
+}
+a.more-link {
+  text-transform: uppercase;
+  font-size: 13px;
+    background-color: #f49b4a;
+    padding: 10px 15px;
+    border-radius: 0.5rem;
+    color: black;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    text-decoration: none;
+  margin-top: 50px;
+  letter-spacing: 1px;
+}

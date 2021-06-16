@@ -1,0 +1,81 @@
+@import 'base/variables'; 
+@import 'funtions/mixins';
+
+
+/* footer */ 
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    background-color: $bg-color-footer;
+    border-radius: 1rem;
+
+
+    .footer-lists {
+        text-decoration: none;
+        color: rgb(63, 63, 63);
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .pie-pagina {
+        font-weight: lighter;
+        color: $text-color1;
+        font-size: 0.9rem;
+        text-decoration: none;
+        
+    }
+    .footer-lists-second {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-lists-second {
+        text-decoration: none;
+        font-family: $ff ;
+        color: rgb(63, 63, 63);
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .footer-lists-second a {
+        color:#CCCCCC;
+        font-size: 0.9rem;
+        font-weight: bold;
+        text-decoration: none; 
+    }
+    .footer-lists-second .pie-pagina {
+        font-weight: normal;
+        color: $text-color1;
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    
+    
+    .footer-socials {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-socials div {
+        display: flex;
+    }
+    .footer-socials h4 {
+        text-decoration: none;
+        color: rgb(63, 63, 63);
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .footer-socials img {
+        width: 3vw;
+        height: 3vw;
+        object-position: left;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-socials a {
+        color:#CCCCCC;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+}
+

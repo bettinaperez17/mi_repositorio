@@ -1,0 +1,32 @@
+/* Header */ 
+
+.header-logo {
+    width: 10%;
+    margin: 1rem; 
+}
+nav{
+    background-color: #fecda1;
+    border-radius: 0.5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+
+    
+
+    ul li a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+}
+.dropdown-menu {
+    background-color: #f49b4a;
+    color: black;
+    font-family: 'Montserrat', sans-serif;;
+    border-radius: 0.5rem;
+    
+   
+}
+/* fin header */ 

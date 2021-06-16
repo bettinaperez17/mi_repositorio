@@ -1,0 +1,20 @@
+@mixin encabezados ($color, $font-w) {
+    color: $color;
+    font-size: 1rem;
+    font-weight: $font-w;
+
+}
+
+.footer-lists-second {
+    @include encabezados( rgb(63, 63, 63), bold)
+}
+
+.footer-lists-second .pie-pagina {
+    @include encabezados( black, bold)
+}
+
+    
+    
+        
+
+
